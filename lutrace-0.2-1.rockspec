@@ -1,9 +1,17 @@
+-- This file was automatically generated for the LuaDist project.
+
 package = "lutrace"
-version = "0.1-1"
+version = "0.2-1"
+-- LuaDist source
 source = {
-   url = "git://github.com/hishamhm/lutrace.git",
-   tag = "v0.1",
+  tag = "0.2-1",
+  url = "git://github.com/LuaDist-testing/lutrace.git"
 }
+-- Original source
+-- source = {
+--    url = "git://github.com/hishamhm/lutrace.git",
+--    tag = "v0.2",
+-- }
 description = {
    summary = "A tiny module for tracing functions executed by a Lua script.",
    detailed = [[
